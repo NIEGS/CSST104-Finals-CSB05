@@ -1,0 +1,9 @@
+# Site settings
+title: My GitHub Pages Website
+description: A simple website hosted on GitHub Pages
+url: "https://yourusername.github.io"
+baseurl: "" # the subpath of your site, e.g. /blog/
+
+# Build settings
+markdown: kramdown
+theme: jekyll-theme-minimal
