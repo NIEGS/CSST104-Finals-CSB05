@@ -7,7 +7,7 @@
 4. [Conclusion](#4-conclusion)
 
 ## 1. Introduction
-This repository contains the final project report for our analysis of student performance using a data analysis and machine learning approach. In this project, we explore various techniques to understand and predict student performance based on demographic and academic attributes. By leveraging descriptive statistics, data visualization, correlation analysis, and machine learning modeling, we aim to provide valuable insights to support informed decision-making in educational settings.
+This repository contains the final project report of group **CSB05** for our analysis of student performance using a data analysis and machine learning approach. In this project, we explore various techniques to understand and predict student performance based on demographic and academic attributes. By leveraging descriptive statistics, data visualization, correlation analysis, and machine learning modeling, we aim to provide valuable insights to support informed decision-making in educational settings.
 
 ## 2. Methodology
 ### Data Analysis Techniques:
