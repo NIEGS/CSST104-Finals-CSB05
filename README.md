@@ -1,4 +1,4 @@
-# Analysis of Student Performance: Data Analysis and Machine Learning Approach
+# Student Performance in Exam Analysis: Data Analysis and Machine Learning Approach
 
 ## Table of Contents
 1. [Introduction](#1-introduction)
