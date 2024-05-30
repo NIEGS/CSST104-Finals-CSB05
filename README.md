@@ -15,22 +15,16 @@ The primary objective of this project is to analyze student performance in exams
 
 ## Gender
 Analyzing gender differences in performance can reveal any disparities that may exist and guide efforts to address gender-based academic challenges.
-
 ## Race/Ethnicity
 Understanding how different racial or ethnic groups perform academically can help identify areas for targeted support or interventions to promote equity and inclusivity.
-
 ## Parental Level of Education
 This attribute provides insight into the potential impact of parental education on student performance, highlighting the importance of family background in academic success.
-
 ## Lunch Type
 Comparing performance between students receiving standard lunch and those receiving free/reduced lunch can shed light on the influence of socio-economic factors on academic achievement.
-
 ## Test Preparation Course Completion
 Analyzing the effect of completing test preparation courses on exam scores can inform decisions regarding the provision and effectiveness of academic support programs.
-
 ## Join Date
 Analysis of join dates can reveal growth trends and seasonal fluctuations in subscription rates, which are essential for planning marketing campaigns and promotions.
-
 ## Math Score, Reading Score, Writing Score
 These individual scores provide a comprehensive view of student academic proficiency across different subjects, enabling targeted interventions and curriculum adjustments as needed. By analyzing these attributes, Educators and policymakers can gain valuable insights into student performance drivers and tailor interventions to support student success effectively. This data-driven approach fosters a more equitable and inclusive educational environment, ultimately contributing to improved academic outcomes for all students.
 
@@ -50,9 +44,11 @@ These individual scores provide a comprehensive view of student academic profici
  ● Seaborn: EnhancesMatplotlib's capabilities, making it easier to create attractive and informative statistical graphics.
 
 **Data Loading**
+
 The dataset is loaded into a Pandas DataFrame from a CSV file using pd.read_csv(). This method converts the structured data into a DataFrame, enabling powerful data manipulation capabilities within Python.
 
 **Data Cleaning and Preprocessing**
+
 Basic preprocessing such as handling categorical data transformation is performed.
 
 **Handling Categorical Data**
