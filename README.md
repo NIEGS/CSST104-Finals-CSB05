@@ -1,4 +1,4 @@
-# Student Performance Analysis with Machine Learning
+# Student Performance in Exam Analysis a Data processing and Machine Learning approach
 
 ## Table of Contents
 1. [Project Overview](#project-overview)
