@@ -187,7 +187,7 @@ Several visualizations, including bar plots, box plots, heatmaps, and pie charts
 
  ○ Categorical features ('gender', 'race/ethnicity', 'parental level of education', 'lunch', 'test preparation course') are encoded using LabelEncoder(), converting theminto numerical values suitable for machine learning algorithms.
 
-** 2. DefineFeatures andLabels:**
+**2. DefineFeatures andLabels:**
 
  ○ Thecodecomputesadditionalfeatures and defines the target variable for model training.
  
@@ -195,19 +195,19 @@ Several visualizations, including bar plots, box plots, heatmaps, and pie charts
 
  ○ 'performance' is a binary label (0 or 1) indicating whether the 'average_score' is greater than 70, serving as the target variable for classification.
 
-** 3. Split the Datainto Training and Testing Sets:**
+**3. Split the Datainto Training and Testing Sets:**
 
  ○ Thedatasetissplit into training and testing sets to assess the model's performance.
 
  ○ train_test_split() function is used to randomly divide the data into two subsets: training data (used to train the model) and testing data (used to evaluate the model).
 
-** 4. TrainaClassification Model:**
+**4. TrainaClassification Model:**
 
  ○ ARandomForestClassifier model is chosen and trained on the training data.
 
  ○ RandomForestClassifier is a popular ensemble learning algorithm based on decision trees, capable of handling classification tasks.
 
-** 5. ModelEvaluation:**
+**5. ModelEvaluation:**
 
  ○ Thetrainedmodel'sperformance is evaluated using accuracy and classification report metrics.
 
@@ -219,28 +219,28 @@ Several visualizations, including bar plots, box plots, heatmaps, and pie charts
 
 ## Visual Insights
 
-Figure 1.0 
+**Figure 1.0:**
 This visualization displays three boxplots representing the distribution of scores in math, reading, and writing. Each boxplot shows the minimum, first quartile, median, third quartile, and maximum scores for the respective subject. From the boxplot, it's evident that the median math score is higher than the median scores for reading and writing. Additionally, the spread of scores, as indicated by the length of the box and whiskers, is wider for math compared to reading and writing, suggesting more variability in math scores.
 
-Figure 2.0
+**Figure 2.0:**
 This bar chart illustrates the percentage of students scoring below 70 in math, reading, and writing. Each bar represents one of the subjects, with the height of the bar indicating the percentage of students who scored below the threshold. From the chart, it's apparent that a higher percentage of students scored below 70 in math compared to reading and writing, indicating that math mayberelatively more challenging for students in this dataset.
 
-Figure 3.0
+**Figure 3.0:**
 The heatmap displays a correlation matrix between math, reading, writing scores, and the average score. Each cell in the heatmap represents the correlation coefficient between two variables, with warmer colors indicating stronger positive correlations and cooler colors indicating stronger negative correlations. From the heatmap, we can observe the correlation between different subject scores and the average score, identifying which subjects are more strongly correlated with overall performance.
 
-Figure 4.0
+**Figure 4.0:**
 This pie chart illustrates the distribution of genders within the dataset. Each slice of the pie represents a gender category, with the size of the slice corresponding to the proportion of students in that category. The pie chart visually demonstrates the gender balance in the dataset, showing the relative frequency of male and female students.
 
-Figure 5.0
+**Figure 5.0:**
 This bar chart compares the average scores between male and female students. Two bars represent the average score for each gender, allowing for a visual comparison of academic performance. The chart provides insights into any disparities in performance between male and female students.
 
-Figure 6.0
+**Figure 6.0:**
 This box plot visualizes the distribution of average scores across different levels of parental education. Each box represents a parental education category, showing the spread of average scores within that category. The box plot helps identify any differences in academic performance based on parental education levels.
 
-Figure 7.0
+**Figure 7.0:**
 This bar chart compares the average scores of students who completed a test preparation course with those who did not. Two bars represent the average score for each group, enabling a comparison of performance between students who received test preparation and those who did not. The chart offers insights into the effectiveness of test preparation courses in improving academic performance.
 
-Figure 8.0
+**Figure 8.0:**
 This scatter plot visualizes the relationship between reading and writing scores for each student, with points colored by gender for differentiation. Each point represents an individual student, with their reading score plotted on the x-axis and their writing score plotted on the y-axis. The scatter plot helps identify any patterns or trends in the relationship between reading and writing scores, as well as any gender-based differences in performance.
 
 
