@@ -122,34 +122,34 @@ Several visualizations, including bar plots, box plots, heatmaps, and pie charts
 
 ## Key Findings
 **1. GenderDistribution:**
-     ○ Visualizations such as pie charts or bar plots can be used to analyze the distribution of gender in the dataset. This allows understanding the representation of males and females among the students.
+     Visualizations such as pie charts or bar plots can be used to analyze the distribution of gender in the dataset. This allows understanding the representation of males and females among the students.
 
  **2. Ethnicity Representation:**
-     ○ The'race/ethnicity' attribute provides information about the ethnic background of students. Analyzing the unique values and their frequency distribution can provide insights into the diversity within the dataset.
+     The'race/ethnicity' attribute provides information about the ethnic background of students. Analyzing the unique values and their frequency distribution can provide insights into the diversity within the dataset.
 
 **3. Parental Level of Education:**
-     ○ Understandingtheparental level of education can offer insights into the educational background of students' families. Visualizing this attribute can help identify the majority level of education among parents.
+     Understandingtheparental level of education can offer insights into the educational background of students' families. Visualizing this attribute can help identify the majority level of education among parents.
 
 **4. MealPreferences:**
-     ○ The'lunch'attribute indicates whether students have standard or free/reduced lunch. Analyzing this can provide insights into socioeconomic factors that may influence academic performance.
+     The'lunch'attribute indicates whether students have standard or free/reduced lunch. Analyzing this can provide insights into socioeconomic factors that may influence academic performance.
 
 **5. TestPreparation:**
-     ○ The'testpreparation course' attribute indicates whether students completed a test preparation course. Analyzing this can reveal the proportion of students who took preparatory measures for exams.
+     The'testpreparation course' attribute indicates whether students completed a test preparation course. Analyzing this can reveal the proportion of students who took preparatory measures for exams.
 
 **6. AcademicPerformance:**
-     ○ Descriptive statistics and visualizations of 'math score', 'reading score', and 'writing score' provide insights into the overall academic performance of students. This includes measures such as mean, median, standard deviation, and distribution plots.
+     Descriptive statistics and visualizations of 'math score', 'reading score', and 'writing score' provide insights into the overall academic performance of students. This includes measures such as mean, median, standard deviation, and distribution plots.
 
 **7. Difficulty Level of Subjects:**
-     ○ Analyzingthepercentage of students scoring below a certain threshold (e.g., 70) for each subject ('math score', 'reading score', 'writing score') can indicate the difficulty level of subjects.
+     Analyzingthepercentage of students scoring below a certain threshold (e.g., 70) for each subject ('math score', 'reading score', 'writing score') can indicate the difficulty level of subjects.
 
 **8. Relationship BetweenScores:**
-     ○ Calculating correlations between different subject scores and overall average score can reveal how strongly individual subject scores are correlated with overall academic performance.
+     Calculating correlations between different subject scores and overall average score can reveal how strongly individual subject scores are correlated with overall academic performance.
 
 **9. ImpactofGenderonAcademicPerformance:**
-     ○ Analyzingaverage scores by gender can help understand if there are any significant differences in academic performance between males and females.
+     Analyzingaverage scores by gender can help understand if there are any significant differences in academic performance between males and females.
 
 **10. Impact of Parental Education and Test Preparation on Academic Performance:**
-     ○ Visualizing average scores by parental level of education and test preparation course completion can provide insights into how these factors may influence academic performance
+     Visualizing average scores by parental level of education and test preparation course completion can provide insights into how these factors may influence academic performance
 
 ## Advanced Analysis
 **Predictive Modeling:**
@@ -168,11 +168,11 @@ Several visualizations, including bar plots, box plots, heatmaps, and pie charts
 
  ● Developpredictive models to identify students at risk of academic underachievement or dropout based on demographic and academic performance data. Implement targeted interventions to support these students.
 
-** TimeSeries Analysis:**
+**TimeSeries Analysis:**
 
  ● Analyzetrendsinacademic performance over time to identify long-term patterns or seasonal variations. This can help in understanding the effectiveness of educational interventions or policy changes.
 
-** Data Visualization Techniques:**
+**Data Visualization Techniques:**
 
  ● Utilize advanced visualization techniques such as interactive dashboards, network graphs, or geospatial analysis to visually explore complex relationships and patterns in the data.
 
