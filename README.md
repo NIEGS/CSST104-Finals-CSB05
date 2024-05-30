@@ -44,11 +44,9 @@ These individual scores provide a comprehensive view of student academic profici
  ● Seaborn: EnhancesMatplotlib's capabilities, making it easier to create attractive and informative statistical graphics.
 
 **Data Loading**
-
 The dataset is loaded into a Pandas DataFrame from a CSV file using pd.read_csv(). This method converts the structured data into a DataFrame, enabling powerful data manipulation capabilities within Python.
 
 **Data Cleaning and Preprocessing**
-
 Basic preprocessing such as handling categorical data transformation is performed.
 
 **Handling Categorical Data**
@@ -79,11 +77,11 @@ Correlations between subject scores and the overall average score are examined t
 Several visualizations, including bar plots, box plots, heatmaps, and pie charts, are created to explore gender distribution, average scores by gender, parental level of education, test preparation course, and the relationship between reading and writing scores.
 
 ### Data Analysis Techniques
-# Uploading CSV file (Dataset)
+**Uploading CSV file (Dataset)**
  Data is loaded from a CSV file into a DataFrame using the pd.read_csv() function. This function parses the data from the CSV file and creates a DataFrame object, which is a tabular data structure similar to a spreadsheet. This allows for easy manipulation and analysis 
  of the dataset within Python.
  
-# Data Preprocessing
+**Data Preprocessing**
    Before conducting any analysis, it's essential to preprocess the data to ensure its quality and usability
 
  ● .head():Prints the first few rows of the DataFrame, providing an initial glimpse into the structure and content of the dataset.
@@ -104,12 +102,12 @@ Several visualizations, including bar plots, box plots, heatmaps, and pie charts
 
  ● .isnull(): Checks for missing values in the DataFrame, identifying any potential data gaps that need to be addressed during preprocessing.
    
-# Visualizations
+**Visualizations**
  Visualizations are powerful tools for gaining insights into the dataset and communicating
  findings effectively:
  ● Alineplotofthe'average_score' column is generated using Matplotlib, depicting the trend of average scores over the dataset.
  ● Theplotiscustomizedtoadjust the figure size and remove the top and right spines of the plot, enhancing its readability and aesthetics.
-# Item Analysis
+**Item Analysis**
  In-depth analyses are conducted to explore various aspects of the dataset:
  ● CalculateDescriptive Statistics: Detailed statistics are computed for numerical columns ('math score', 'reading score', 'writing score'), providing insights into their
  distributions and central tendencies. ● AnalyzeDifficulty Level: The percentage of students scoring below a certain threshold (e.g., 70) is calculated for each subject, indicating the difficulty level of the items. ● AnalyzeDiscriminatoryPower:Correlations between subject scores and overall average score are examined, revealing the extent to which individual subject scores contribute to the overall performance.
