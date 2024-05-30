@@ -43,37 +43,37 @@ These individual scores provide a comprehensive view of student academic profici
 
  ● Seaborn: EnhancesMatplotlib's capabilities, making it easier to create attractive and informative statistical graphics.
 
-**Data Loading**
+**Data Loading:**
 The dataset is loaded into a Pandas DataFrame from a CSV file using pd.read_csv(). This method converts the structured data into a DataFrame, enabling powerful data manipulation capabilities within Python.
 
-**Data Cleaning and Preprocessing**
+**Data Cleaning and Preprocessing:**
 Basic preprocessing such as handling categorical data transformation is performed.
 
-**Handling Categorical Data**
+**Handling Categorical Data:**
 Various operations are conducted to handle categorical data transformation, including displaying the first few rows of the DataFrame, checking its shape, listing column names, checking data types, displaying unique values, counting unique values, describing numerical columns, and checking for missing values.
 
-**Exploratory Data Analysis (EDA)**
+**Exploratory Data Analysis (EDA):**
 Descriptive statistics and visualizations are used to understand the structure and distribution of the data.
 
-**Descriptive Statistics**
+**Descriptive Statistics:**
 Descriptive statistics are calculated for numerical attributes ('math score', 'reading score', 'writing score') to understand their distributions.
 
-**Visualizing Data Distributions**
+**Visualizing Data Distributions:**
 A line plot of the 'average_score' column is created to visualize the trend of average scores. The plot is customized for better visualization.
 
-**Item Analysis**
+**Item Analysis:**
 Various analyses are conducted to explore item performance.
 
-**Calculate Descriptive Statistics**
+**Calculate Descriptive Statistics:**
 Descriptive statistics are computed again for numerical attributes ('math score', 'reading score', 'writing score').
 
-**Analyze Difficulty Level**
+**Analyze Difficulty Level:**
 The percentage of students scoring below a threshold (e.g., 70) for each subject is calculated to assess the difficulty level.
 
-**Analyze Discriminatory Power**
+**Analyze Discriminatory Power:**
 Correlations between subject scores and the overall average score are examined to evaluate the discriminatory power of individual subject scores. 
 
-**Visualizations**
+**Visualizations:**
 Several visualizations, including bar plots, box plots, heatmaps, and pie charts, are created to explore gender distribution, average scores by gender, parental level of education, test preparation course, and the relationship between reading and writing scores.
 
 ### Data Analysis Techniques
