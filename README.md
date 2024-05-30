@@ -103,14 +103,13 @@ Several visualizations, including bar plots, box plots, heatmaps, and pie charts
  ● .isnull(): Checks for missing values in the DataFrame, identifying any potential data gaps that need to be addressed during preprocessing.
    
 **Visualizations**
- Visualizations are powerful tools for gaining insights into the dataset and communicating
- findings effectively:
+ Visualizations are powerful tools for gaining insights into the dataset and communicating findings effectively:
  ● Alineplotofthe'average_score' column is generated using Matplotlib, depicting the trend of average scores over the dataset.
+
  ● Theplotiscustomizedtoadjust the figure size and remove the top and right spines of the plot, enhancing its readability and aesthetics.
 **Item Analysis**
  In-depth analyses are conducted to explore various aspects of the dataset:
- ● CalculateDescriptive Statistics: Detailed statistics are computed for numerical columns ('math score', 'reading score', 'writing score'), providing insights into their
- distributions and central tendencies. ● AnalyzeDifficulty Level: The percentage of students scoring below a certain threshold (e.g., 70) is calculated for each subject, indicating the difficulty level of the items. ● AnalyzeDiscriminatoryPower:Correlations between subject scores and overall average score are examined, revealing the extent to which individual subject scores contribute to the overall performance.
+ ● CalculateDescriptive Statistics: Detailed statistics are computed for numerical columns ('math score', 'reading score', 'writing score'), providing insights into their distributions and central tendencies. ● AnalyzeDifficulty Level: The percentage of students scoring below a certain threshold (e.g., 70) is calculated for each subject, indicating the difficulty level of the items. ● AnalyzeDiscriminatoryPower:Correlations between subject scores and overall average score are examined, revealing the extent to which individual subject scores contribute to the overall performance.
  ● Visualizations: Bar plots, box plots, and heatmaps are created to visualize gender distribution, average scores by gender, parental level of education, and test preparation course. Additionally, a scatter plot is generated to explore the relationship between reading and writing scores, colored by gender, providing deeper insights into the dataset's characteristics.
 
 ## Key Findings
